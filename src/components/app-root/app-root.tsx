@@ -1,4 +1,4 @@
-import { Component, h } from '@stencil/core';
+import { Component, h} from '@stencil/core';
 
 
 @Component({
@@ -15,7 +15,11 @@ export class AppRoot {
           <stencil-router>
             <stencil-route-switch scrollTopOffset={0}>
               <stencil-route url='/' component='app-home' exact={true} />
-
+            </stencil-route-switch>
+          </stencil-router>
+          <stencil-router>
+            <stencil-route-switch scrollTopOffset={0}>
+              <stencil-route url='/404' component='app-404' exact={true} />
             </stencil-route-switch>
           </stencil-router>
         </main>

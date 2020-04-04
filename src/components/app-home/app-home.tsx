@@ -17,10 +17,25 @@ export class AppHome {
           <small>coming soon</small>
         </div>
 
-        <div class="logo">
-          <img src="../../assets/ia.png" alt="infinity arc" />
-          <div>Infinity Arc <br />Foundation Affiliate</div>
-        </div>
+        <footer>
+
+        <a href="http://www.infinityarc.net" target="_blank">
+          <div class="logo">
+            <img src="../../assets/ia.png" alt="infinity arc" />
+            <div>Infinity Arc <br />Foundation Affiliate</div>
+          </div>
+        </a>
+
+        <a href="#" target="_blank">
+          <div class="stencil">
+          <div>Site created with stenciljs</div>
+            <img src="../../assets/icon/icon.png" alt="stenciljs logo icon"></img>
+
+          </div>
+        </a>
+
+        </footer>
+
       </div>
     );
   }
