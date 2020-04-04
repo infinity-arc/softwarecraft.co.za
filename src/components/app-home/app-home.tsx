@@ -13,7 +13,7 @@ export class AppHome {
 
         <div class="app-home-inner">
           <h1>I will not write harmful code</h1>
-          <p>a movement toward better softare devleopment practice in South Africa</p>
+          <p>a movement toward better software development practice in South Africa</p>
           <small>coming soon</small>
         </div>
 
